@@ -163,6 +163,15 @@ h1 img {
 	float: left;
 	margin: 20vh 0 0 60px
 }
+
+.btn-download.sobre {
+	margin: 30px 0 0 0px;
+}
+
+.btn-download.center {
+	float: none;
+}
+
 .btn-download .btn {
 	display: inline-block;
 	padding: 0px 50px;
@@ -221,6 +230,7 @@ p, li {
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 21px;
+	text-align: justify;
 }
 
 ul, ol {
@@ -257,6 +267,10 @@ ol li {
 	font-weight: 500;
 }
 
+.vermelho {
+	color: #e60014;
+}
+
 .cont-img {
 	display: table;
 	vertical-align: middle;
@@ -288,6 +302,37 @@ ol li {
 	
 }
 
+.itens-num {
+	display: block;
+	margin-top: 20px;
+	width: 100%;
+	text-align: justify;
+}
+
+.itens-num span {
+	display: table-cell;
+	vertical-align: top;
+
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 21px;
+}
+
+.itens-num span.num {
+	background: #e60014;
+	color: #ffffff;
+	vertical-align: middle;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	text-align: center;
+	font-weight: 800;
+	display: block;
+	line-height: 50px;
+	font-size: 19px;
+	margin-right: 20px;	
+}
+
 .cont-img.right .cont-txt {
 	padding-right: 100px;
 	padding-left: 0px;
@@ -301,6 +346,35 @@ ol li {
 
 .footer .container {
 	text-align: center;
+}
+
+.footer #link-up {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	font-size: 2rem;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	color: #e60014;
+	background: #f2f2f2;
+	line-height: 50px;
+	cursor: pointer;
+
+	/*display: none;*/
+
+    -moz-transition: all 0.2s ease 0s;
+    -webkit-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+}
+
+.footer #link-up:hover {
+	background: #e60014;
+	color: #ffffff;
+}
+
+.footer p {
+	font-size: .8rem;
 }
 
 .redes {
@@ -351,6 +425,8 @@ ol li {
 	color: #e60014;
 }
 
+
+/* -- */
 #contato {
 	display: none;
 	padding: 40px;
@@ -423,6 +499,99 @@ ol li {
 #contato fieldset.erro input:-ms-input-placeholder {  
 	color: #e60014;
 }
+
+/* -- */
+
+#mensagem {
+	display: none;
+	padding: 40px;
+	padding: 100px;
+	max-width: 600px;
+	width: 100%;
+	background-color: #e60014;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#mensagem .fancybox-close-small svg {
+	color: #ffffff;
+}
+
+#mensagem h3 {
+	margin-bottom: 20px;
+	color: #ffffff;
+}
+#mensagem h3 strong {
+	color: #ffffff;
+}
+
+#mensagem input, #mensagem textarea {
+	width: 100%;
+	line-height: 40px;
+	border-radius: 3px;
+	padding: 0 10px;
+	font-size: 16px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #120b48;
+	border: 1px solid #ffffff;
+}
+
+#mensagem .enviar {
+	width: 100%;
+	line-height: 42px;
+	border-radius: 3px;
+	padding: 0 10px;
+	font-size: 16px;
+	font-weight: 300;
+	text-transform: uppercase;
+	background-color: #271f68;
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+}
+#mensagem .enviar:hover {
+	background-color: #120b48;
+}
+
+#mensagem fieldset {
+	margin-top: 10px;
+}
+
+#mensagem fieldset.erro input::-webkit-input-placeholder {
+	color: #e60014;
+}
+
+#mensagem fieldset.erro input:-moz-placeholder { /* Firefox 18- */
+	color: #e60014;  
+}
+
+#mensagem fieldset.erro input::-moz-placeholder {  /* Firefox 19+ */
+	color: #e60014;  
+}
+
+#mensagem fieldset.erro input:-ms-input-placeholder {  
+	color: #e60014;
+}
+
+
+#mensagem fieldset.erro textarea::-webkit-input-placeholder {
+	color: #e60014;
+}
+
+#mensagem fieldset.erro textarea:-moz-placeholder { /* Firefox 18- */
+	color: #e60014;  
+}
+
+#mensagem fieldset.erro textarea::-moz-placeholder {  /* Firefox 19+ */
+	color: #e60014;  
+}
+
+#mensagem fieldset.erro textarea:-ms-input-placeholder {  
+	color: #e60014;
+}
+
 
 .msg-form {
 	color: #ffffff;
@@ -506,6 +675,10 @@ ol li {
 		width: 100%;
 		margin: 0;
 		top: 0;
+	}
+
+	#mensagem {
+		padding: 40px 30px;
 	}
 
 	#contato {

@@ -53,7 +53,6 @@
 
 <title><?php echo $titulo; ?></title>
 
-
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.min.css" media="screen" />
@@ -67,12 +66,36 @@
 <script type="text/javascript">
 	jQuery.noConflict();
 
+	jQuery(window).resize(function(){
+		//alert();
+		//scroll_body = jQuery(window).scrollTop();
+		//alert(scroll_body);
+		/*if(scroll_body > 50){ 
+			jQuery('#link-up').show();
+		}else{
+			//jQuery('#link-up').hide('slow');
+		}*/
+	})
+
 	jQuery(document).ready(function(){
 		jQuery('#sobre').click(function(){
 			jQuery('html,body').animate({
 				scrollTop: jQuery('#footer').offset().top
 			}, 1000);
 		});
+
+		jQuery('#link-up').click(function(){
+			jQuery('html,body').animate({
+				scrollTop: jQuery('body').offset().top
+			}, 1000);
+		});
+
+		/*scroll_body = jQuery(window).scrollTop();
+		if(scroll_body > 500){
+			jQuery('#link-up').show('slow');
+		}else{
+			jQuery('#link-up').hide('slow');
+		}*/
 	});	
 </script>
 
@@ -105,16 +128,16 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 			<nav class="nav">
 				<ul class="menu-principal">
 					<li class="">
-						<a href="https://www.youtube.com/embed/U5Srx2a49Sc" title="video" data-fancybox>
+						<a href="https://www.youtube.com/embed/w1NX_7RtBOo" title="video" data-fancybox>
 							video
 						</a>
 					</li>
 
-					<li class="">
+					<?php /*<li class="">
 						<a href="javascript:" title="sobre" id="sobre">
 							sobre
 						</a>
-					</li>
+					</li>*/?>
 
 					<li class="">
 						<a href="javascript:" title="contato" data-fancybox data-src="#contato" class="btn-contato">
