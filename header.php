@@ -2,65 +2,78 @@
 <html lang="pt-br">
 <head>
 
-<title></title>
+
+<?php 
+	$url = 'https://www.ederton.xyz/preview/pix90';
+	$titulo = 'Pix90';
+	$descricao = 'O QUE É O PIX90? Uma ferramenta que torna pessoas comuns em grandes vendedores dentro do MERCADO LIVRE. Faz com que as vendas gerem lucro e o(a) vendedor(a) ganhe notoriedade por ser um(a) ótimo(a) vendedor(a) entregador(a) dos pedidos no prazo.';
+	$imagem = $url.'/assets/images/img-2.png';
+	//$imgPage = $imagem_princ;
+	$autor = 'Ederton Lima, edertton@gmail.com';
+?>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="<?php echo $url; ?>/assets/images/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="<?php echo $url; ?>/assets/images/favicon.ico" type="image/x-icon" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-language" content="pt" />
+<meta name="rating" content="General" />
+<meta name="description" content="<?php echo $descricao; ?>" />
+<meta name="keywords" content="" />
+<meta name="robots" content="index,follow" />
+<meta name="author" content="<?php echo $autor; ?>" />
+<meta name="language" content="pt-br" />
+<meta name="title" content="<?php echo $titulo; ?>" />
+
+<!-- SOCIAL META -->
+<meta itemprop="name" content="<?php echo $titulo; ?>" />
+<meta itemprop="description" content="<?php echo $descricao; ?>" />
+<meta itemprop="image" content="<?php echo $imagem; ?>" />
+
+<html itemscope itemtype="<?php echo $url; ?>" />
+<link rel="image_src" href="<?php echo $imagem; ?>" />
+<link rel="canonical" href="<?php echo $url; ?>" />
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="<?php echo $titulo; ?>" />
+<meta property="og:type" content="article" />
+<meta property="og:description" content="<?php echo $descricao; ?>" />
+<meta property="og:image" content="<?php echo $imagem; ?>" />
+<meta property="og:url" content="<?php echo $url; ?>" />
+<meta property="og:site_name" content="<?php echo $titulo; ?>" />
+<meta property="fb:admins" content="<?php echo $autor; ?>" />
+<meta property="fb:app_id" content="1205127349523474" /> 
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="<?php echo $url; ?>" />
+<meta name="twitter:title" content="<?php echo $titulo; ?>" />
+<meta name="twitter:description" content="<?php echo $descricao; ?>" />
+<meta name="twitter:image" content="<?php echo $imagem; ?>" />
+<!-- SOCIAL META -->
+
+<title><?php echo $titulo; ?></title>
+
 
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.min.css" media="screen" />
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
 <!-- JQUERY -->
-<script type="text/javascript" src="/assets/js/jquery.min.js"></script>
-<script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+<!--<script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>-->
 
 
 <script type="text/javascript">
 	jQuery.noConflict();
 
 	jQuery(document).ready(function(){
-
-		jQuery('.menu-mobile').click(function(){
-			if(jQuery(this).hasClass('active')){
-				//jQuery('.nav').css('top','-100vh');
-				jQuery(this).removeClass('active');
-				jQuery('.header').removeClass('active');
-			}else{
-				//jQuery('.nav').css('top','0px');
-				jQuery(this).addClass('active');
-				jQuery('.header').addClass('active');
-			}
+		jQuery('#sobre').click(function(){
+			jQuery('html,body').animate({
+				scrollTop: jQuery('#footer').offset().top
+			}, 1000);
 		});
-
-		if(jQuery('body').height() <= jQuery(window).height()){
-			jQuery('.footer').css({position: 'absolute', bottom: '0px'});
-		}else{
-			jQuery('.footer').css({position: 'relative'});
-		}
-
-		scroll_body = jQuery(window).scrollTop();
-		if(scroll_body > 400){
-			jQuery('.header').addClass('scroll_menu');
-		}
 	});	
-
-	jQuery(window).resize(function(){
-		jQuery('.menu-mobile').removeClass('active');
-		jQuery('.header').removeClass('active');
-		//jQuery('.nav').css('top','-100vh');
-		if(jQuery('body').height() <= jQuery(window).height()){
-			jQuery('.footer').css({position: 'absolute', bottom: '0px'});
-		}else{
-			jQuery('.footer').css({position: 'relative'});
-		}
-	});
-
-	jQuery(window).scroll(function(){
-		scroll_body = jQuery(window).scrollTop();
-		if(scroll_body > 400){
-			jQuery('.header').addClass('scroll_menu');
-		}else{
-			jQuery('.header').removeClass('scroll_menu');
-		}
-	});
 </script>
 
 <?php /*
@@ -92,19 +105,19 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 			<nav class="nav">
 				<ul class="menu-principal">
 					<li class="">
-						<a href="javascript:" title="video">
+						<a href="https://www.youtube.com/embed/U5Srx2a49Sc" title="video" data-fancybox>
 							video
 						</a>
 					</li>
 
 					<li class="">
-						<a href="javascript:" title="sobre">
+						<a href="javascript:" title="sobre" id="sobre">
 							sobre
 						</a>
 					</li>
 
 					<li class="">
-						<a href="javascript:" title="contato" class="">
+						<a href="javascript:" title="contato" data-fancybox data-src="#contato" class="btn-contato">
 							contato
 						</a>
 					</li>
