@@ -10,7 +10,7 @@
 			</h1>
 
 			<div class="info_footer">
-				<strong><span>PIX90:</span> ALTIVO MARTINS JUNIOR ME, CNPJ 61.417.861/0001-79</strong><br>
+				<strong><span>PIX90:</span> CNPJ 61.417.861/0001-79</strong><br>
 				Rua Célia 1-19, sala 01, Jd. Mesquita, Bauru - SP, 17014-410<br>
 				
 				<a href="mailto:pix90@pix90.com.br">pix90@pix90.com.br</a>

@@ -189,7 +189,7 @@
 
 				<br><br><br><br>
 
-				<p class="destaque">Terá em média um lucro de 8 a 14%, podendo ser maior, conforme sua conta começar a ficar com mais notoriedade (no MERCADO LIVRE, quanto amis você vende, mais no topo das pesquisas você ficará).</p>
+				<p class="destaque">Terá em média um lucro de 8 a 14%, podendo ser maior, conforme sua conta começar a ficar com mais notoriedade (no MERCADO LIVRE, quanto mais você vende, mais no topo das pesquisas você ficará).</p>
 
 			</div>
 		</div>
@@ -391,7 +391,7 @@
 				<h3>ATENÇÃO</h3>
 				<ul>
 					<li>PIX90 não é um curso, não são aulas, isto são vendas reais e lucros reais.</li>
-					<li>Será VENDEDOR(A) de fato, com vendas reais e lucro real.</li>
+					<li>VOCÊ é VENDEDOR(A) de fato, com vendas reais e lucro real.</li>
 					<li>Irá vender, como qualquer outro GRANDE VENDEDOR(A) DO MERCADO LIVRE.</li>
 					<li>O Prazo médio para já estar gerenciando ótimas vendas (claro que é ligado também ao valor que podemos vender), é em média de 90 dias.</li>
 					<li>Como irá ver todo o procedimento das VENDAS, do começo ao fim e, nos questionando para aprender, logo você poderá gerir sozinho suas vendas. Mas, preferindo, iremos manter a parceria por um ótimo período de lucros.</li>
