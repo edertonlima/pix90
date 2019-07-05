@@ -4,10 +4,10 @@
 
 
 <?php 
-	$url = 'https://www.ederton.xyz/preview/pix90';
-	$titulo = 'Pix90';
+	$url = 'https://'.$_SERVER[HTTP_HOST].$_SERVER[REQUEST_URI];
+	$titulo = 'PIX90 Vender no Mercado Livre';
 	$descricao = 'O QUE É O PIX90? Uma ferramenta que torna pessoas comuns em grandes vendedores dentro do MERCADO LIVRE. Faz com que as vendas gerem lucro e o(a) vendedor(a) ganhe notoriedade por ser um(a) ótimo(a) vendedor(a) entregador(a) dos pedidos no prazo.';
-	$imagem = $url.'/assets/images/img-2.png';
+	$imagem = $url.'assets/images/img-2.png';
 	//$imgPage = $imagem_princ;
 	$autor = 'Ederton Lima, edertton@gmail.com';
 ?>
@@ -98,21 +98,6 @@
 		}*/
 	});	
 </script>
-
-<?php /*
-<!-- ZOPIM -->
-<!--Start of Zendesk Chat Script-->
-<script type="text/javascript">
-window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
-d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
-_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
-$.src="https://v2.zopim.com/?4wUPiAqqUPHLIihFTiGQt2Su4HknexxE";z.t=+new Date;$.
-type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
-</script>
-
-<!-- SUMO -->
-<script src="//load.sumome.com/" data-sumo-site-id="0820f5828ba5ae1d27edd8bde6d74989a0ddbfa73cad0af4f62420486d84f071" async="async"></script>
-*/ ?>
 
 </head>
 <body>

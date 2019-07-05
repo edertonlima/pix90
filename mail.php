@@ -5,8 +5,8 @@
 	$telefone = $_GET['telefone'];
 	$mensagem = $_GET['mensagem'];
 
-	$email_remetente = 'contato@ederton.xyz';
-	$para = 'pix90vendas@gmail.com';
+	$email_remetente = 'pix90@pix90.com.br';
+	$para = $email_remetente; //'pix90vendas@gmail.com';
 
 	$headers = "MIME-Version: 1.0" . "\r\n";
 	$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";

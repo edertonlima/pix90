@@ -1,4 +1,5 @@
 <?php include "header.php" ?>
+<?php $contrato = 'CONTRATO-PIX90-MAIO2019.pdf'; ?>
 
 <section class="institucional" style="background-image: url('assets/images/img-testeira-home.jpg');">
 	<div class="container box-sizing">
@@ -7,7 +8,7 @@
 			<iframe src="https://www.youtube.com/embed/w1NX_7RtBOo" class="box-sizing" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 			<div class="btn-download">
-				<a href="CONTRATO-PIX90-2019.pdf" target="_blank" class="btn">download</a>
+				<a href="<?php echo $contrato; ?>" target="_blank" class="btn">download</a>
 				<p>Faça o download do contrato para o <strong>PIX90</strong> no formato PDF</p>
 			</div>
 
@@ -20,7 +21,7 @@
 	<div class="container box-sizing">
 				
 		<h3>O QUE É O <strong>PIX90?</strong></h3> 
-		<p>É uma ferramenta que ajuda qualquer pessoa comum a vender no site <strong>MERCADO LIVRE</strong>. Ou ainda, ajuda a melhorar a conta de quem já vende no <strong>MERCADO LIVRE,</strong> pelo impulsionamento orgânico dos anúncios junto ao <strong>GOOGLE.</strong></p>
+		<p>É uma empresa que ajuda qualquer pessoa comum a vender no site <strong>MERCADO LIVRE</strong>. Ou ainda, ajuda a melhorar a conta de quem já vende no <strong>MERCADO LIVRE,</strong> pelo impulsionamento orgânico dos anúncios junto ao <strong>GOOGLE.</strong></p>
 
 	</div>
 </section>
@@ -32,7 +33,7 @@
 		<p class="destaque">Porque ajudará VOCÊ a aprender a vender e ou vender mais, com lucros, dentro do MERCADO LIVRE, sem precisar de estoques antecipados, ou seja, irá ajudar a alavancar sua conta dentro do site, sem esforço algum, sem investimentos antes de ver as vendas reais. O PIX90 será o seu gerenciador de vendas no site MERCADO LIVRE.</p>
 
 			<div class="btn-download sobre">
-				<a href="CONTRATO-PIX90-2019.pdf" target="_blank" class="btn">download</a>
+				<a href="<?php echo $contrato; ?>" target="_blank" class="btn">download</a>
 				<p>Faça o download do contrato para o <strong>PIX90</strong> no formato PDF</p>
 			</div>
 
@@ -258,7 +259,7 @@
 				<h3 class="">Formato 50/50</h3>
 
 				<br>
-				<p>VOCÊ, pagará a inscrição junto ao PIX90 de R$ 36,90 (trinta e seis Reais e noventa centavos) para iniciar o serviço e parceria (não será cobrado novamente nesta parceria).</p>
+				<p>VOCÊ, pagará a inscrição junto ao PIX90 de R$ 100,00 (cem reais) para iniciar o serviço e parceria (não será cobrado novamente nesta parceria).</p>
 
 				<br>
 				<p>O PIX90 arcará com os custos de tudo para inserir 1.000 (mil) produtos à venda em sua conta, indexar no GOOGLE, manutenção da ferramenta da Captura das vendas e todos os custos para que sua conta ganhe notoriedade, visibilidade e gere lucros.</p>
@@ -267,7 +268,7 @@
 				<p>Neste formato, VOCÊ pagará 50% (cinquenta por cento) de todo o lucro aferido nas vendas ao PIX90, mediante a planilha mensal, e com a nota fiscal do serviço prestado. A VOCÊ caberá receber 50% (cinquenta por cento) do lucro.</p>
 
 				<br>
-				<p>A META, neste formato, a parceria tem que se manter até que o PIX90 lucre R$ 1.000,00 (mil reais) ou o VOCÊ lucre R$ 1.000,00 (mil reais).</p>
+				<p>A META, neste formato, a parceria tem que se manter até que o PIX90 lucre R$ 600,00 (seiscentos reais) ou o VOCÊ lucre R$ 600,00 (seiscentos reais).</p>
 
 				<br>
 				<p>Atingindo uma ou outra meta e nenhuma parte se manifestar, a parceria se manterá ativa até que uma das partes não queira mais e informe por e-mail, restando pagar, se houver, a comissão de vendas, até o momento do cancelamento da parceira.</p>
@@ -276,7 +277,7 @@
 				<h3 class="">Formato 40/60</h3>
 
 				<br>
-				<p>VOCÊ, pagará a inscrição junto ao PIX90 de R$ 495,63 (quatrocentos e noventa e cinco reais e sessenta e três centavos) para iniciar o serviço e parceria (não será cobrado novamente nesta parceria).</p>
+				<p>VOCÊ, pagará a inscrição junto ao PIX90 de R$ 200,00 (duzentos reais) para iniciar o serviço e parceria (não será cobrado novamente nesta parceria).</p>
 
 				<br>
 				<p>O PIX90 arcará com os custos de tudo para inserir 1.000 (mil) produtos à venda em sua conta, indexar no GOOGLE, manutenção da ferramenta da Captura das vendas e todos os custos para que a sua conta ganhe notoriedade, visibilidade e gere lucros.</p>
@@ -285,13 +286,16 @@
 				<p>Neste formato, VOCÊ pagará 40% (quarenta por cento) de todo o lucro aferido nas vendas ao PIX90, mediante a planilha mensal, e com a nota fiscal do serviço prestado. A VOCÊ caberá receber 60% (sessenta por cento) do lucro.</p>
 
 				<br>
-				<p>A META, neste formato, a parceria tem que se manter até que o PIX90 lucre R$ 2.000,00 (dois mil reais) ou VOCÊ lucre R$ 3.000,00 (três mil reais). Atingindo uma ou outra meta e nenhuma parte se manifestar, a parceria se manterá ativa até que uma das partes não queira mais e informe por e-mail, restando pagar, se houver, a comissão de vendas, até o momento do cancelamento da parceira.</p>
+				<p>A META, neste formato, a parceria tem que se manter até que o PIX90 lucre R$ 800,00 (oitocentos reais) ou VOCÊ lucre R$ 1,200,00 (mil e duzentos reais).</p>
+
+				<br>
+				<p>Atingindo uma ou outra meta e nenhuma parte se manifestar, a parceria se manterá ativa até que uma das partes não queira mais e informe por e-mail, restando pagar, se houver, a comissão de vendas, até o momento do cancelamento da parceira.</p>
 
 				<br><br><br>
 				<h3 class="">Formato 30/70</h3>
 
 				<br>
-				<p>VOCÊ, pagará a inscrição junto ao PIX90 de R$ 963,90 (novecentos e sessenta e três reais e noventa centavos) para iniciar o serviço e parceria (não será cobrado novamente nesta parceria).</p>
+				<p>VOCÊ, pagará a inscrição junto ao PIX90 de R$ 300,00 (trezentos reais) para iniciar o serviço e parceria (não será cobrado novamente nesta parceria).</p>
 
 				<br>
 				<p>O PIX90 arcará com os custos de tudo para inserir 1.000 (mil) produtos à venda em sua conta, indexar no GOOGLE, manutenção da ferramenta da Captura das vendas e todos os custos para que a sua conta ganhe notoriedade, visibilidade e gere lucros.</p>
@@ -300,7 +304,25 @@
 				<p>Neste formato, VOCÊ pagará 30% (trinta por cento) de todo o lucro aferido nas vendas ao PIX90, mediante a planilha mensal, e com a nota fiscal do serviço prestado. A VOCÊ caberá receber 70% (setenta por cento) do lucro.</p>
 
 				<br>
-				<p>A META, neste formato, a parceria tem que se manter até que o PIX90 lucre R$ 3.000,00 (mil reais) ou VOCÊ lucre R$ 7.000,00 (mil reais).</p>
+				<p>A META, neste formato, a parceria tem que se manter até que o PIX90 lucre R$ 770,00 (setecentos e setenta reais) ou VOCÊ lucre R$ 1.800,00 (mil e oitocentos reais).</p>
+
+				<br>
+				<p>Atingindo uma ou outra meta e nenhuma parte se manifestar, a parceria se manterá ativa até que uma das partes não queira mais e informe por e-mail, restando pagar, se houver, a comissão de vendas, até o momento do cancelamento da parceira.</p>
+
+				<br><br><br>
+				<h3 class="">Formato 10/90 (FORMATO ESPECIAL)</h3>
+
+				<br>
+				<p>VOCÊ, pagará a inscrição junto ao PIX90 de R$ 3.690,00 (três mil seiscentos e noventa reais) para iniciar o serviço e parceria (não será cobrado novamente nesta parceria).</p>
+
+				<br>
+				<p>O PIX90 arcará com os custos de tudo para inserir 1.000 (mil) produtos à venda em sua conta, indexar no GOOGLE, manutenção da ferramenta da Captura das vendas e todos os custos para que a sua conta ganhe notoriedade, visibilidade e gere lucros.</p>
+
+				<br>
+				<p>Neste formato, VOCÊ pagará 10% (dez por cento) de todo o lucro aferido nas vendas ao PIX90, mediante a planilha mensal, e com a nota fiscal do serviço prestado. A VOCÊ caberá receber 90% (noventa por cento) do lucro.</p>
+
+				<br>
+				<p>A META, neste formato, a parceria tem que se manter até que o PIX90 lucre R$ 2.460,00 (dois mil quatrocentos e sessenta reais) ou VOCÊ lucre R$ 22.140,00 (vinte e dois mil cento e quarenta reais).</p>
 
 				<br>
 				<p>Atingindo uma ou outra meta e nenhuma parte se manifestar, a parceria se manterá ativa até que uma das partes não queira mais e informe por e-mail, restando pagar, se houver, a comissão de vendas, até o momento do cancelamento da parceira.</p>
@@ -320,7 +342,7 @@
 		<div class="btn-download sobre center">
 			<p class="center">Faça o download do contrato para o <strong>PIX90</strong> no formato PDF</p>
 			<br><br>
-			<a href="CONTRATO-PIX90-2019.pdf" target="_blank" class="btn">download</a>
+			<a href="<?php echo $contrato; ?>" target="_blank" class="btn">download</a>
 		</div>
 
 	</div>
