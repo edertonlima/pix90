@@ -88,7 +88,7 @@ header {
 	position: fixed;
 	top: 0;
 	left: 0;
-	//height: 64px;
+	/*height: 64px;*/
 	width: 100%;
 	padding: 10px 0;
 	background-color: #ffffff;
@@ -131,6 +131,7 @@ h1 img {
 	-moz-transition: all 0.2s ease 0s;
 	-webkit-transition: all 0.2s ease 0s;
 	-o-transition: all 0.2s ease 0s;
+	font-size: 1rem;
 }
 .nav a:hover {
 	color: #271f68;
@@ -359,6 +360,7 @@ ol li {
 
 .footer #link-up {
 	position: fixed;
+	z-index: 9999;
 	bottom: 30px;
 	right: 30px;
 	font-size: 2rem;

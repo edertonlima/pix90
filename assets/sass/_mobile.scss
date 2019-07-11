@@ -8,7 +8,7 @@
 		.container {
 			padding: 0;
 		}
-		
+
 		.etapas {
 			padding: 0;
 		}
@@ -44,7 +44,7 @@
 		}
 	}
 
-	.text-sobre {
+	.text-sobre{
 		padding: 40px;
 	}
 
@@ -114,6 +114,70 @@
 	#contato {
 		padding: 40px 30px;
 	}
+
+	.slide-carousel {
+		h3 {
+			margin: 0;
+		}
+	}
+}
+
+@media all and (max-width: 820px){
+	.container-etapas {
+		.container {
+			padding: 0;
+		}
+	}
+
+	.tab-icon {
+		button {
+
+		}
+	}
+}
+
+@media all and (max-width: 800px){
+	.footer {
+		h1 {
+			width: 100%;
+			img {
+				margin: 0 auto;
+			}
+		}
+	}
+}
+
+@media all and (max-width: 735px){
+	.container-etapas {
+		.container {
+			
+		}
+	}
+
+	.tab-icon {
+		button {
+			margin: 0 2px;
+			padding: 7px;
+
+			i {
+				font-size: 1rem;
+				margin-bottom: 5px;
+			}
+
+			span {
+				font-size: .6rem;
+
+				&.tit {
+					font-size: 1.25rem;
+					line-height: 1.25rem;
+				}
+			}
+		}
+	}
+
+	.tab-icon-container {
+		margin-top: -63px;
+	}
 }
 
 @media all and (max-width: 650px){
@@ -141,6 +205,81 @@
 	.footer h1 {
 		float: none;
 	}
+
+	.etapas-container {
+		padding: 20px;
+
+		h4 {
+			margin-top: 20px;
+		}
+	}
+
+	.cordion {
+		&.full {
+			.cont-txt {
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+	}
+
+	.tab-icon-container {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.formas-lucro {
+		h2 {
+			padding: 0 25px;
+			font-size: 2rem;
+		}
+
+		.subtitulo {
+			padding: 0 20px;
+		}
+	}
+}
+
+@media all and (max-width: 500px){
+	.etapas {
+		.item {
+			.itens-num {
+				span {
+					display: block;
+
+					.num {
+						width: 100%;
+						height: auto;
+						min-height: 56px;
+						padding: 10px 0 6px;
+						display: block;
+						line-height: 27px;
+					}
+				}
+			}
+		}
+	}
+
+	.tab-icon-container{
+		h3 {
+			line-height: 1.5rem;
+			font-size: 1.25rem;
+			margin-top: 0;
+			margin-bottom: 20px;
+		}
+	}
+
+	.bg-vermelho h3.btn-content-off {
+		margin: 0;
+		cursor: pointer;
+		padding: 25px 15px;
+		font-size: 1.5rem;
+	}
+
+	.container-padding-no-400 {
+		padding: 0!important;
+		max-width: 100%!important;
+	}
 }
 
 @media all and (max-width: 400px){
@@ -150,5 +289,28 @@
 
 	.nav li {
 		padding: 0 5px;
+	}
+
+	.tab-icon {
+		button {
+			margin: 0px;
+			padding: 6px;
+
+			span {
+				&.tit {
+					font-size: .85rem;
+					line-height: 1rem;
+				}
+			}
+		}
+	}
+
+	.bg-vermelho h3.btn-content-off {
+		padding: 0px 15px;
+
+		i {
+			display: block;
+			margin: 12px 0 0;
+		}
 	}
 }

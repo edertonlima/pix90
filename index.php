@@ -1,7 +1,7 @@
 <?php include "header.php" ?>
 <?php $contrato = 'CONTRATO-PIX90-MAIO2019.pdf'; ?>
 
-<div class="container box-sizing">
+<div class="container box-sizing container-padding-no-400">
 <section class="institucional" style="background-image: url('assets/images/img-testeira-home.jpg');">
 	<div class="container box-sizing">
 		
@@ -115,7 +115,7 @@
 </section>
 
 
-<div class="container box-sizing">
+<div class="container container-padding-no-400 box-sizing">
 <section class="etapas-container text-sobre slide-carousel bg-cinza clear box-sizing">
 	<div class="container box-sizing">
 
@@ -273,7 +273,7 @@
 </div>
 
 <section class="text-sobre clear box-sizing">
-	<div class="container box-sizing">
+	<div class="container container-padding-no-400 box-sizing">
 		<div class="cordion full">
 
 			<ul>
@@ -337,11 +337,11 @@
 </section>
 
 
-<section class="text-sobre padding-50 no-padding-top clear box-sizing">
+<section class="container-etapas text-sobre padding-50 no-padding-top clear box-sizing">
 	<div class="container box-sizing">
 
 		<div class=" no-image">
-			<div class="cont-txt">
+			<div class="cont-txt formas-lucro">
 
 				<h2 class="center vermelho">5 formas de lucro</h2>
 				<p class="subtitulo center">Serão 6 (seis formas de lucros e pagamentos de comissão ao PIX90, você escolherá na adesão ao contrato (valor do lucro líquido das vendas em 30 dias)</p>
@@ -411,7 +411,6 @@
 					<div class="tab-item off" id="40-60">
 						<h3 class="center">Formato 40/60</h3>
 
-						<br>
 						<p>VOCÊ, pagará a inscrição junto ao PIX90 de R$ 200,00 (duzentos reais) para iniciar o serviço e parceria (não será cobrado novamente nesta parceria).</p>
 
 						<br>
@@ -437,7 +436,6 @@
 					<div class="tab-item off" id="30-70">
 						<h3 class="center">Formato 30/70</h3>
 
-						<br>
 						<p>VOCÊ, pagará a inscrição junto ao PIX90 de R$ 300,00 (trezentos reais) para iniciar o serviço e parceria (não será cobrado novamente nesta parceria).</p>
 
 						<br>
@@ -476,7 +474,6 @@
 					<div class="tab-item off" id="10-90">
 						<h3 class="center">Formato 10/90 (FORMATO ESPECIAL)</h3>
 
-						<br>
 						<p>VOCÊ, pagará a inscrição junto ao PIX90 de R$ 3.690,00 (três mil seiscentos e noventa reais) para iniciar o serviço e parceria (não será cobrado novamente nesta parceria).</p>
 
 						<br>
@@ -506,6 +503,7 @@
 	</div>
 </section>
 
+<?php /*
 <section class="text-sobre bg-cinza clear box-sizing" style="display: none">
 	<div class="container box-sizing">
 		
@@ -520,6 +518,7 @@
 
 	</div>
 </section>
+*/ ?>
 
 <?php /*
 <section class="text-sobre clear box-sizing" style="display: none">
@@ -580,18 +579,16 @@
 </section>
 */ ?>
 
-<div class="container box-sizing">
-<section class="text-sobre bg-vermelho no-padding clear box-sizing">
+<div class="container container-padding-no-400 box-sizing">
+<section class="text-sobre btn-destaque bg-vermelho no-padding clear box-sizing">
 	<h3 class="destaque center btn-content-off" rel="#empresa">VOCÊ É EMPRESA E TEM PRODUTOS PARA VENDER? <i class="fas fa-chevron-down"></i></h3>
 </section>
 </div>
 
 <div class="container box-sizing">
 <section class="text-sobre content-off clear box-sizing" id="empresa">
-	<div class="container box-sizing">
 
 		<div class="cont-txt">
-			<div class="container box-sizing">
 			<p>O PIX90, neste formato, irá anunciar seus produtos para serem vendidos em todas a contas dos VENDEDORES/INVESTIDORES da Rede Pix90, dentro do MERCADO LIVRE.
 			A taxa de adesão será de R$ 3.000,00 (três mil reais) para até 200 (duzentos) produtos, que serão inseridos em uma conta mãe e esta conta mãe replicará as demais contas, em um formato que irá aumentar a visibilidade de seus produtos.</p>
 			<br>
@@ -605,10 +602,8 @@
 
 			<p>Aqui encontrará a vantagem de ter centenas de vendedores propagando seu produto, sua marca, e a qualquer um que vender, sua Empresa será o responsável pela entrega.
 			Não haverá na rede 2 fornecedores do mesmo segmento de produto, ao mesmo tempo de contrato. Assim, poderá expor seus produtos sem precisar pagar nada ao Google e qualquer outro meio de melhoria de imagem.</p>
-			</div>
 		</div>
 		
-	</div>
 </section>
 </div>
 
