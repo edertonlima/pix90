@@ -140,7 +140,7 @@
 				<div class="item">
 					<div class="itens-num">
 						<div>
-							<span><span class="num">1<span>ETAPA</span></span></span>
+							<span><span class="num">1°<span>ETAPA</span></span></span>
 							<span class="txt">
 								PIX90, cadastra de pronto 1.000 produtos (de diversos segmentos) em sua conta do MERCADO LIVRE, isto em até 48h úteis, após a efetivação da conta (conta está em seu nome, em seu CPF, em seu endereço, atrelado apenas a VOCÊ - PIX90, recebe uma autorização sua, via o contrato de adesão, para gerir a conta, menos o financeiro).
 							</span>
@@ -151,7 +151,7 @@
 				<div class="item">
 					<div class="itens-num">
 						<div>
-							<span><span class="num">2<span>ETAPA</span></span></span>
+							<span><span class="num">2°<span>ETAPA</span></span></span>
 							<span class="txt">
 								PIX90, fará de tudo para indexar estes produtos na internet via GOOGLE, gerando notoriedade em seu nome, fazendo com que nas buscas, seus produtos sejam encontrados.
 							</span>
@@ -162,7 +162,7 @@
 				<div class="item">
 					<div class="itens-num">
 						<div>
-							<span><span class="num">3<span>ETAPA</span></span></span>
+							<span><span class="num">3°<span>ETAPA</span></span></span>
 							<span class="txt">
 								DOR no MERCADO LIVRE, entra na sua conta e compra um produto, uma batedeira de bolo.
 							</span>
@@ -173,7 +173,7 @@
 				<div class="item">
 					<div class="itens-num">
 						<div>
-							<span><span class="num">4<span>ETAPA</span></span></span>
+							<span><span class="num">4°<span>ETAPA</span></span></span>
 							<span class="txt">
 								Este COMPRADOR, só existe, porque ele pagou em sua conta do MERCADO PAGO o valor da venda da batedeira (só existe COMPRADORES no MERCADO LIVRE, depois que este paga pelo produto mais o frete para o seu envio).
 							</span>
@@ -184,7 +184,7 @@
 				<div class="item">
 					<div class="itens-num">
 						<div>
-							<span><span class="num">5<span>ETAPA</span></span></span>
+							<span><span class="num">5°<span>ETAPA</span></span></span>
 							<span class="txt">
 								Este dinheiro da venda da batedeira, estará vinculado ao seu CPF, mas ficará retido, até que a batedeira chegue para o COMPRADOR em sua casa. O MERCADO PAGO é o banco garantidor da transação do MERCADO LIVRE, onde hoje, é o meio mais seguro de se pagar e receber na internet.
 							</span>
@@ -195,7 +195,7 @@
 				<div class="item">
 					<div class="itens-num">
 						<div>
-							<span><span class="num">6<span>ETAPA</span></span></span>
+							<span><span class="num">6°<span>ETAPA</span></span></span>
 							<span class="txt">
 								PIX90, pelo seu programa de captura da venda, receberá a informação da venda vinculada ao seu nome ou seu apelido no MERCADO LIVRE.
 							</span>
@@ -206,7 +206,7 @@
 				<div class="item">
 					<div class="itens-num">
 						<div>
-							<span><span class="num">7<span>ETAPA</span></span></span>
+							<span><span class="num">7°<span>ETAPA</span></span></span>
 							<span class="txt">
 								O PIX90, receberá toda a informação da venda pelo seu API.<br>Neste momento, o PIX90, começa a agir e compra o produto para o envio imediato para o COMPRADOR.
 							</span>
@@ -217,7 +217,7 @@
 				<div class="item">
 					<div class="itens-num">
 						<div>
-							<span><span class="num">8<span>ETAPA</span></span></span>
+							<span><span class="num">8°<span>ETAPA</span></span></span>
 							<span class="txt">
 								O PIX90, comprará a batedeira em uma das lojas conveniadas e enviará o boleto do custo da batedeira para VOCÊ/VENDEDOR/FINANCISTA pagá-lo (por isso não terá obrigação de estoque).<br>VOCÊ receberá por e-mail, o boleto do produto (tudo em seu nome) e quando o pagar, a loja conveniada, enviará o produto direto ao seu COMPRADOR.
 							</span>
@@ -228,7 +228,7 @@
 				<div class="item">
 					<div class="itens-num">
 						<div>
-							<span><span class="num">9<span>ETAPA</span></span></span>
+							<span><span class="num">9°<span>ETAPA</span></span></span>
 							<span class="txt">
 								Assim, que o COMPRADOR receber o produto, o MERCADO PAGO (banco garantidor da transação), liberará o dinheiro retido em sua conta.<br>O boleto que pagará para o envio da batedeira, será de valor inferior ao valor recebido em sua conta do MERCADO PAGO. Por isso, há o LUCRO.
 							</span>
@@ -239,20 +239,9 @@
 				<div class="item">
 					<div class="itens-num">
 						<div>
-							<span><span class="num">10<span>ETAPA</span></span></span>
+							<span><span class="num">10°<span>ETAPA</span></span></span>
 							<span class="txt">
 								VOCÊ só irá pagar boletos, notando que do valor que recebeu é maior que o valor que pagará.<br>Irá notar que o valor que recebeu na sua conta do MERCADO PAGO é maior que o valor do boleto a pagar.
-							</span>
-						</div>
-					</div>
-				</div>
-
-				<div class="item">
-					<div class="itens-num">
-						<div>
-							<span><span class="num"><i class="fas fa-star"></i></span>
-							<span class="txt">
-								Terá em média um lucro de 8 a 14%, podendo ser maior, conforme sua conta começar a ficar com mais notoriedade (no MERCADO LIVRE, quanto mais você vende, mais no topo das pesquisas você ficará)
 							</span>
 						</div>
 					</div>

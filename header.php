@@ -7,9 +7,9 @@
 	$url = 'http://localhost/';//.$_SERVER[HTTP_HOST].$_SERVER[REQUEST_URI];
 	$titulo = 'PIX90 Vender no Mercado Livre';
 	$descricao = 'O QUE É O PIX90? Uma ferramenta que torna pessoas comuns em grandes vendedores dentro do MERCADO LIVRE. Faz com que as vendas gerem lucro e o(a) vendedor(a) ganhe notoriedade por ser um(a) ótimo(a) vendedor(a) entregador(a) dos pedidos no prazo.';
-	$imagem = $url.'assets/images/img-2.png';
+	$imagem = $url.'assets/images/pix90.jpg';
 	//$imgPage = $imagem_princ;
-	$autor = 'Ederton Lima, edertton@gmail.com';
+	$autor = 'Ederton Lima, My Web, eu@ederton.com.br';
 ?>
 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
