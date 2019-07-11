@@ -1,0 +1,366 @@
+﻿@import '_mixin'
+@import '_mobile'
+
+// ELEMENTOS
+h2 
+	color: #271f68
+	font-size: 2.75rem
+	font-weight: 700
+
+
+.subtitulo
+	max-width: 600px
+	margin: 10px auto 0 
+	display: block
+
+
+/* TAB */
+.tab-icon 
+	width: 100%
+	text-align: center
+	margin: 25px 0
+	position: relative
+	z-index: 10
+
+	button 
+		margin: 0 5px
+		padding: 20px
+		background: #fff
+		color: #333
+		cursor: pointer
+		border-radius: 5px
+		border: 1px solid #f1f1f1
+		@include animacao
+
+		i, span
+			@include animacao
+
+		i
+			font-size: 1.5rem
+			margin-bottom: 10px
+			color: #666
+
+		span 
+			display: block
+			text-transform: uppercase
+			font-size: .75rem
+			color: #666
+
+
+		.tit 
+			font-size: 1.75rem
+			font-weight: 700
+
+
+		&:hover, &.on
+			border-color: #e60014
+
+			span, i
+				color: #e60014
+
+.carousel
+	&.slide
+		padding: 0 80px
+
+		.carousel-inner
+
+			.carousel-item
+				min-height: 150px
+
+				.itens-num
+					display: table
+					width: 100%
+					height: 150px
+					margin-top: 0
+
+					div
+						display: table-cell
+						vertical-align: middle
+
+					span
+						vertical-align: middle
+
+
+						&.num
+							vertical-align: middle
+							display: table-cell
+							border-radius: 5px 0 0 5px
+							height: 150px
+							padding: 0 30px
+							margin: 0
+							font-size: 2rem
+							line-height: normal
+
+							i
+								color: #ffffff
+
+							span
+								font-size: 1rem
+								display: block
+								color: #ffffff
+								font-weight: 400
+
+						&.txt
+							background-color: #ffffff
+							padding: 25px
+							border-radius: 0 5px 5px 0
+							width: 100%
+
+		.carousel-control
+			width: auto
+			margin: 0
+
+			i
+				font-size: 2rem
+				color: #271f68
+
+			&.carousel-control-prev
+				text-align: left
+				padding: 0 40px 0 0px
+
+			&.carousel-control-next
+				text-align: right
+				padding: 0 0px 0 40px 
+
+		.carousel-indicators
+			bottom: -40px
+			margin: 0
+			padding: 0
+
+			li
+				text-indent: -10000px
+				display: inline-block
+				background-color: rgba(#000000,.2)
+
+				&.active
+					background-color: #e60014
+
+
+.tab-icon-container
+	margin-top: -82px
+	margin-bottom: 82px
+	position: relative
+	z-index: 0
+
+	.tab-item
+		border: 2px solid #e60014
+		padding: 85px 40px 40px 40px
+		border-radius: 5px
+
+		&.off
+			display: none
+
+		&.on
+			height: auto
+	h3 
+		color: #333
+		font-size: 2rem
+		font-weight: 700
+		margin: 20px 0 40px
+
+
+// ACORDION
+.cordion
+	width: 100%
+
+	ul
+		display: block
+		padding: 0
+		margin: 0
+
+		li
+			width: 100%
+			display: block
+			border: 1px solid rgba(0,0,0,.125)
+			padding: 0
+			border-radius: 5px
+
+			&:first-child
+				margin-top: 0
+
+			.acordion-header
+				i 
+					&:before
+						content: '\f078'
+
+			.acordion-body
+				display: none
+
+			&.on
+				.acordion-header
+					i 
+						&:before
+							content: "\f068"
+
+				.acordion-body
+					display: block
+
+		ul, ol
+			margin: 0
+			padding: 0
+
+			li
+				border: none
+
+	&.full
+		li
+			padding: 20px
+			border: none
+			border-radius: 0
+			border-bottom: 1px solid rgba(0,0,0,.125)
+
+			&.on
+				h3
+					i 
+						&:before
+							content: "\f068"
+					
+				.cont-txt
+					display: block
+
+		h3
+			margin: 0
+			padding: 0
+			text-transform: none
+			font-size: 1.3rem
+			font-weight: 400
+			cursor: pointer
+
+			i
+				font-size: 1rem
+				margin-left: 6px
+				position: relative
+				top: -1px
+
+		.cont-txt
+			display: none
+			padding: 0 20px
+			margin-top: 15px
+		
+	.acordion-header, .acordion-body
+		
+
+	.acordion-header
+		background-color: rgba(0,0,0,.03)
+		position: relative
+		cursor: pointer
+
+		i 
+			position: absolute
+			top: 50%
+			right: 15px
+			color: #3e3e3e
+			font-size: 11px
+			margin-top: -5.5px
+
+	.acordion-body
+		padding: 15px
+		border-top: 1px solid rgba(0,0,0,.125)
+
+	h3
+		padding: 15px 40px 15px 15px
+		font-size: 1rem
+		line-height: 1.25rem
+		color: #3e3e3e
+		margin: 0
+		text-transform: none
+		font-weight: 400
+
+
+// SECTION
+.slide-carousel
+	padding-bottom: 140px
+
+	h3
+		margin-bottom: 25px
+
+
+// ELEMENTOS
+.bg-vermelho
+	h3
+		&.destaque
+			i
+				color: #ffffff
+				font-size: 1.25rem
+				margin-left: 6px
+				position: relative
+				top: -2px
+
+		&.btn-content-off
+			margin: 0
+			cursor: pointer
+			padding: 25px 0
+
+.content-off
+	display: none
+	padding: 50px 0
+	border-bottom: 1px solid rgba(0,0,0,0.125)
+
+
+.etapas
+	padding: 0 80px
+	margin-top: 20px
+	display: block
+	width: 100%
+	float: left
+
+
+	.item
+		min-height: 150px
+		margin-top: 20px
+		border-radius: 5px
+		overflow: hidden
+
+		.itens-num
+			display: table
+			width: 100%
+			height: 150px
+			margin-top: 0
+
+			div
+				display: table-cell
+				vertical-align: middle
+
+			span
+				vertical-align: middle
+				background: #e60014
+
+
+				&.num
+					vertical-align: middle
+					display: table-cell
+					border-radius: 0
+					//border-radius: 5px 0 0 5px
+					height: 150px
+					min-width: 107px
+					padding: 0 30px
+					margin: 0
+					font-size: 2rem
+					line-height: normal
+
+					i
+						color: #ffffff
+
+					span
+						font-size: 1rem
+						display: block
+						color: #ffffff
+						font-weight: 400
+
+				&.txt
+					background-color: #ffffff
+					padding: 25px
+					//border-radius: 0 5px 5px 0
+					width: 100% 
+
+
+//FOOTER
+.footer
+	overflow: hidden
+
+	h1
+		margin: 0
+		img
+			margin: 0
+			height: auto
+			display: block

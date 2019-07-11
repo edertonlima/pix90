@@ -1,14 +1,12 @@
 
-
+<div class="container">
 	<footer class="footer bg-cinza" id="footer">
 		<div class="container">
 
 			<h1>
-				<a href="javascript:" title="">
-					<img src="assets/images/logo.png" alt="">
-				</a>
+				<img src="assets/images/pix90-footer.png" alt="">
 			</h1>
-
+			
 			<div class="info_footer">
 				<strong><span>PIX90:</span> CNPJ 61.417.861/0001-79</strong><br>
 				Rua Célia 1-19, sala 01, Jd. Mesquita, Bauru - SP, 17014-410<br>
@@ -24,13 +22,17 @@
 				<a href=""><i class="fab fa-youtube"></i></a>
 				<a href=""><i class="fab fa-soundcloud"></i></a>
 			</div>*/ ?>
+
 		</div>
 
 		<i class="fas fa-angle-up" id="link-up"></i>
 	</footer>
+</div>
 
 </body>
 </html>
+
+<script type="text/javascript" src="assets/js/footer.js"></script>
 
 <script type="text/javascript">
 	jQuery("#btn-contato").click(function(){

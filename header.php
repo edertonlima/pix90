@@ -4,7 +4,7 @@
 
 
 <?php 
-	$url = 'https://'.$_SERVER[HTTP_HOST].$_SERVER[REQUEST_URI];
+	$url = 'http://localhost/';//.$_SERVER[HTTP_HOST].$_SERVER[REQUEST_URI];
 	$titulo = 'PIX90 Vender no Mercado Livre';
 	$descricao = 'O QUE É O PIX90? Uma ferramenta que torna pessoas comuns em grandes vendedores dentro do MERCADO LIVRE. Faz com que as vendas gerem lucro e o(a) vendedor(a) ganhe notoriedade por ser um(a) ótimo(a) vendedor(a) entregador(a) dos pedidos no prazo.';
 	$imagem = $url.'assets/images/img-2.png';
@@ -54,13 +54,15 @@
 <title><?php echo $titulo; ?></title>
 
 <!-- CSS -->
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="assets/css/style-antigo.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.min.css" media="screen" />
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
 <!-- JQUERY -->
-<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
-<!--<script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>-->
+<script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap-4.3.2.min.js"></script>
 
 
 <script type="text/javascript">
