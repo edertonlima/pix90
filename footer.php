@@ -9,10 +9,10 @@
 
 			<div class="info_footer">
 				<strong><span>PIX90:</span> CNPJ 61.417.861/0001-79</strong><br>
-				Rua Célia 1-19, sala 01, Jd. Mesquita, Bauru - SP, 17014-410<br>
+				Rua Rio Branco, 6-55, Primeiro Andar, Centro. Bauru - SP, 17010-190<br>
 				
 				<a href="mailto:pix90@pix90.com.br">pix90@pix90.com.br</a>
-				<span><i class="fab fa-whatsapp"></i> 14-99102-4041 / 14-3016-1039</span>
+				<span><i class="fab fa-whatsapp"></i> 14-99102-4041</span>
 
 				<p class="center">Todos os direitos reservados</p>
 			</div>

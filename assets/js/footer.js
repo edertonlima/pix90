@@ -3,7 +3,7 @@
 
 	jQuery(document).ready(function(){
 
-		jQuery('.cordion h3').click(function(){
+		jQuery('.cordion h3').click(function(){ 
 			if(jQuery(this).parents('li').hasClass('on')){
 				jQuery('.cordion li').removeClass('on');
 			}else{
@@ -12,9 +12,18 @@
 			}
 		});
 
-
 		jQuery('.btn-content-off').click(function(){
-			jQuery(jQuery(this).attr('rel')).toggle();
+			if(jQuery(this).hasClass('on')){
+				jQuery(this).removeClass('on');
+				jQuery('i',this).removeClass('fa-minus');
+				jQuery('i',this).addClass('fa-chevron-down');
+				jQuery(jQuery(this).attr('rel')).css('display','none');
+			}else{
+				jQuery(this).addClass('on');
+				jQuery('i',this).removeClass('fa-chevron-down');
+				jQuery('i',this).addClass('fa-minus');
+				jQuery(jQuery(this).attr('rel')).css('display','block');
+			}
 		});
 
 
