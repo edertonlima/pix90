@@ -149,7 +149,7 @@
 						<div>
 							<span><span class="num">1ª<span>ETAPA</span></span></span>
 							<span class="txt">
-								<strong>Pix90</strong>, cadastra de pronto 1.000 produtos (de diversos segmentos) em sua conta do <strong>Mercado Livre, </strong>isto em até 10 dias úteis, após a efetivação da parceria (conta está em seu nome, em seu CPF, em seu endereço, atrelado apenas a <strong>Você</strong>.  <strong>Pix90</strong>, recebe uma autorização sua, via o contrato de adesão, para gerir a conta, menos o financeiro.
+								<strong>Pix90</strong>, cadastra de pronto 1.000 produtos (de diversos segmentos) em sua conta do <strong>Mercado Livre, </strong>isto em até 10 dias úteis, após a efetivação da parceria (conta está em seu nome, em seu CPF, em seu endereço, atrelado apenas a <strong>Você).</strong>  <strong>Pix90</strong>, recebe uma autorização sua, via o contrato de adesão, para gerir a conta, menos o financeiro.
 							</span>
 						</div>
 					</div>
