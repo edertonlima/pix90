@@ -4,7 +4,7 @@
 
 
 <?php 
-	$url = 'http://localhost/';//.$_SERVER[HTTP_HOST].$_SERVER[REQUEST_URI];
+	$url = 'http://localhost/pix90';//.$_SERVER[HTTP_HOST].$_SERVER[REQUEST_URI];
 	$titulo = 'PIX90 Vender no Mercado Livre';
 	$descricao = 'O QUE É O PIX90? Uma ferramenta que torna pessoas comuns em grandes vendedores dentro do MERCADO LIVRE. Faz com que as vendas gerem lucro e o(a) vendedor(a) ganhe notoriedade por ser um(a) ótimo(a) vendedor(a) entregador(a) dos pedidos no prazo.';
 	$imagem = $url.'assets/images/pix90.jpg';
@@ -100,6 +100,28 @@
 		}*/
 	});	
 </script>
+
+<script type="text/javascript">
+ (function () {
+ var options = {
+ whatsapp: "+5514991024041", // Número do WhatsApp
+ company_logo_url: "<?php echo $url; ?>/assets/images/logo.png", // URL com o logo da empresa
+ greeting_message: "Seja bem-vindo ao Pix90!", // Texto principal
+ call_to_action: "Olá, tudo bem? Gostaria de mais informações sobre o Pix90!", // Chamada para ação
+ position: "right", // Posição do widget na página 'right' ou 'left'
+ };
+ var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+ s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+ var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+ })();
+</script>
+
+<style type="text/css">
+#wh-widget-send-button.wh-widget-right {
+    bottom: 70px !important;
+}
+</style>
 
 </head>
 <body>
