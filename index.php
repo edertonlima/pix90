@@ -1,11 +1,11 @@
 <?php include "header.php" ?>
 <?php 
-	$contrato_50_50 = 'contratos/contrato_50_50.pdf';
-	$contrato_40_60 = 'contratos/contrato_40_60.pdf';
-	$contrato_30_70 = 'contratos/contrato_30_70.pdf';
-	$contrato_20_80 = 'contratos/contrato_20_80.pdf';
-	$contrato_10_90 = 'contratos/contrato_10_90.pdf';
-	$contrato_fornecedor = 'contratos/contrato_fornecedor.pdf';
+	$contrato_50_50 = 'contratos/00_50-50_200_reais.pdf';
+	$contrato_40_60 = 'contratos/00_40-60_400_reais.pdf';
+	$contrato_30_70 = 'contratos/00_30-70_800_reais.pdf';
+	$contrato_20_80 = 'contratos/00_20-80_1600_reais.pdf';
+	$contrato_10_90 = 'contratos/00_10-90_3200_reais.pdf';
+	$contrato_fornecedor = 'contratos/00_FORNECEDOR-CONTRATO_PIX90_2019.pdf';
 ?>
 
 <div class="container box-sizing container-padding-no-400">
