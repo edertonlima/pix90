@@ -4,7 +4,7 @@
 
 
 <?php 
-	$url = 'http://localhost/pix90';//.$_SERVER[HTTP_HOST].$_SERVER[REQUEST_URI];
+	$url = 'https://www.pix90.com.br';//.$_SERVER[HTTP_HOST].$_SERVER[REQUEST_URI];
 	$titulo = 'PIX90 Vender no Mercado Livre';
 	$descricao = 'O QUE É O PIX90? Uma ferramenta que torna pessoas comuns em grandes vendedores dentro do MERCADO LIVRE. Faz com que as vendas gerem lucro e o(a) vendedor(a) ganhe notoriedade por ser um(a) ótimo(a) vendedor(a) entregador(a) dos pedidos no prazo.';
 	$imagem = $url.'assets/images/pix90.jpg';

@@ -8,7 +8,7 @@
 			</h1>
 
 			<div class="info_footer">
-				<strong><span>PIX90:</span> CNPJ 61.417.861/0001-79</strong><br>
+				<strong style="color: #e60014">PIX90:</strong> <strong>CNPJ 61.417.861/0001-79</strong><br>
 				Rua Rio Branco, 6-55, Primeiro Andar, Centro. Bauru - SP, 17010-190<br>
 				
 				<a href="mailto:pix90@pix90.com.br">pix90@pix90.com.br</a>
